@@ -1,0 +1,21 @@
+.container {
+	width: 70%;
+	min-width: 768px;
+	max-width: 1300px;
+	padding: 15px 10px;
+}
+
+.card {
+	width: 40%;
+	padding: 30px 20px;
+	border: 1px solid #d5d4d4;
+	margin-bottom: 20px;
+}
+
+.card:nth-child(even) {
+	margin-left: 10px;
+}
+
+.card:nth-child(odd) {
+	margin-right: 10px;
+}
