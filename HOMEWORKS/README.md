@@ -12,5 +12,5 @@
 ## Блок 3. Адаптивная вёрстка
 3.1. [Верстка адаптивного макета](3.1.adaptive-layout/)  
 3.2. [Адаптивная типографика](3.2.adaptive-typography/)  
-3.3. [Breakpoints](breakpoints/)  
-3.4. [Адаптивные изображения](adaptive-images/) 
+3.3. [Breakpoints](3.3.breakpoints/)  
+3.4. [Адаптивные изображения](3.4.adaptive-images/) 
