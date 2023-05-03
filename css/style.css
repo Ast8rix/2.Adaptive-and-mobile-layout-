@@ -572,10 +572,86 @@
 /*Block shop*/
 .shop {
   padding-top: 65px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop__container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop__cards {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop__card {
+  width: 345px;
+  height: 265px;
+  margin-right: 70px;
+
+  position: relative;
+  display: inline-block;
+}
+
+.shop__item {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block;
+}
+
+.shop__caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 345px;
+  border: 3px solid #999966;
+
+  position: absolute;
+  top: 175px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.shop__subtitle {
+  padding-top: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  line-height: 23.99px;
+}
+
+.shop__text {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: normal;
+  font-family: inherit;
+  padding-bottom: 30px;
+}
+
+.shop__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  display: block;
 }
 
 /*Block footer*/
 .footer {
+  padding-top: 165px;
   display: block;
 }
 
